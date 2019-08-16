@@ -34,7 +34,7 @@ window.setImmediate || function () {'use strict';
         delete storage[key];
         fastApply(data);
       }
-    }
+    } 
   }
 
   window.setImmediate = function setImmediate() {
